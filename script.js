@@ -1,6 +1,6 @@
 const input = document.querySelector('.insert');
 const add = document.querySelector('.add');
-const filter = document.querySelector('.topics');
+const filter = document.querySelector('.categ');
 const todoList = document.querySelector('.todo-list');
 
 
