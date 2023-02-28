@@ -1,11 +1,11 @@
 const input = document.querySelector('.insert');
-const addBtn = document.querySelector('.add');
+const add = document.querySelector('.add');
 const filterOption = document.querySelector('.topics');
 const todoList = document.querySelector('.todo-list');
 
 
 document.addEventListener('DOMContentLoaded',getTodos);
-addBtn.addEventListener('click',setTodo);
+add.addEventListener('click',setTodo);
 todoList.addEventListener('click',action);
 filterOption.addEventListener('input',filterTodo);
 
